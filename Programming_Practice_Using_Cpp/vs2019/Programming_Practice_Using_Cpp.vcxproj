@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ch3.9.2.cpp" />
     <ClCompile Include="ch3_1.cpp" />
     <ClCompile Include="ch3_2.cpp" />
     <ClCompile Include="ch3_3.cpp" />

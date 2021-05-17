@@ -1,4 +1,3 @@
-﻿  ch3_4.cpp
-  ch3_5.cpp
-  코드를 생성하고 있습니다...
-  Programming_Practice_Using_Cpp.vcxproj -> D:\Personal\Programming_Practice_Using_Cpp\Programming_Practice_Using_Cpp\vs2019\Debug\Programming_Practice_Using_Cpp.exe
+﻿  ch3.9.2.cpp
+D:\Personal\Programming_Practice_Using_Cpp\Programming_Practice_Using_Cpp\vs2019\ch3.9.2.cpp(29,11): error C2397: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+D:\Personal\Programming_Practice_Using_Cpp\Programming_Practice_Using_Cpp\vs2019\ch3.9.2.cpp(31,12): error C2397: 'int'에서 'char'(으)로의 변환에는 축소 변환이 필요합니다.
