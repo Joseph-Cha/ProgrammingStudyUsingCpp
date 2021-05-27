@@ -1,2 +1,1 @@
-# Programming_Practice_Using_Cpp
-Programming principles and practice using C++ 책 실습
+# 프로그래밍에 대한 공부 공간입니다.
