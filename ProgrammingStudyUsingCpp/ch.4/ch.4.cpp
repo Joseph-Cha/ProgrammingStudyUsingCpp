@@ -1,9 +1,38 @@
-﻿// ch.4.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
-//
+﻿#include <iostream>
+using namespace std;
 
-#include <iostream>
+void compare(double a, double b)
+{
+    double result = a - b;
+    if (result < 1.0 / 100)
+        cout << "두수가 거의 같음" << endl;
+}
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    double a = 0;
+    double b = 0;
+    while (cin >> a >> b)
+    {
+        if (a == b)
+        {
+            cout << "둘이 같은 값 " << endl;
+        }
+        else if (a < b)
+        {
+            cout << "더 작은값: " << a
+                << " "
+                << "더 큰값: " << b << endl;
+            compare(b, a);
+        }
+
+        else
+        {
+            cout << "더 큰값: " << a
+                << " "
+                << "더 작은값: " << b << endl;
+            compare(a, b);
+        }
+    }
 }
+
