@@ -1,38 +1,23 @@
 ﻿#include <iostream>
 using namespace std;
 
-void compare(double a, double b)
-{
-    double result = a - b;
-    if (result < 1.0 / 100)
-        cout << "두수가 거의 같음" << endl;
-}
-
 int main()
 {
-    double a = 0;
-    double b = 0;
-    while (cin >> a >> b)
+    double min = 100000000000000;
+    double max = -10000000000000;
+    double c = 0;
+    while (cin >> c)
     {
-        if (a == b)
+        if (min > c)
         {
-            cout << "둘이 같은 값 " << endl;
+            min = c;
         }
-        else if (a < b)
+        if (max < c)
         {
-            cout << "더 작은값: " << a
-                << " "
-                << "더 큰값: " << b << endl;
-            compare(b, a);
+            max = c;
         }
-
-        else
-        {
-            cout << "더 큰값: " << a
-                << " "
-                << "더 작은값: " << b << endl;
-            compare(a, b);
-        }
+        cout << "min : " << min << endl;
+        cout << "max : " << max << endl;
     }
 }
 
